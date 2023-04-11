@@ -16,7 +16,7 @@ if add_students.lower() == 'y':
         course = input("Enter the student's course:")
         c.execute(f"INSERT INTO students (name, course) VALUES ('{name}', '{course}')")
         conn.commit()
-
+            
 
 
                                                                    # Open the certificate template file
@@ -27,7 +27,7 @@ c.execute("SELECT * FROM students")
 students = c.fetchall()
                                                                    # Loop through each student and generate a certificate
 for student in students:
-    print(student)                                                    # Fill in the template with the student's information
+    print(student)                                                 # Fill in the template with the student's information
     name = student[0]
     course = student[1]
     certificate = template.format(name=name, course=course)

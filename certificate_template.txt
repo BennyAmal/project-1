@@ -1,2 +1,6 @@
-This is certified that {name} is a bonafide student of {course} Course at College currently in 0th semester. His academic record is satisfactory till now.
-It is also certified that this person is maintaining required number of attendance in classes and he bears a good moral character.
+	BONAFIDE CERTIFICATE
+
+This is certified that {name} is a bonafide student of {course} Course 
+at College currently in 0th semester. His academic record is satisfactory till now.
+It is also certified that this person is maintaining required number of attendance in classes 
+and he bears a good moral character.
